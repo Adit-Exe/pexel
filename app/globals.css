@@ -2,20 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*{
+  transition: all;
+  transition-duration: 700ms;
+  transition-timing-function: ease-out;
 }
-
 body {
-  color: var(--foreground);
-  background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#hro{
+  background-image: url('wallpapers.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+#con{
+  width: 90%;
 }
